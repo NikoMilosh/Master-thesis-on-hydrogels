@@ -1,0 +1,14 @@
+#include "martini2.itp"
+#include "Protein.itp"
+#include "martini_v2.0_ions.itp"
+
+
+[ system ]
+; name
+Martini system from Hydro.pdb in water
+
+[ molecules ]
+; name        number
+Protein 	 300
+
+W               20316
